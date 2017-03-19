@@ -1,0 +1,17 @@
+package TEST;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HelloWorldTest extends HelloWorld {
+
+	@Test
+	public void testTriangle() {
+		assertEquals(2, HelloWorld.Triangle(1, 1, 1));
+		
+		
+		//fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,14 @@
+package TEST;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class fmtcase extends HelloWorld {
+
+	@Test
+	public void testFmtRewrap() {
+		assertEquals("\n", HelloWorld.fmtRewrap("", 1));
+	}
+
+}
